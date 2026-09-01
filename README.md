@@ -8,8 +8,9 @@ A hands-on frontend development showcase highlighting my progression, technical 
  2  |[Basic_HTML_Web](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Basic_HTML_web)|HTML|Completed
  
 ## Skills Currently Developing
-Frontend: HTML, CSS, JavaScript, Responsive Web Design
-Version Controll
+- Frontend: HTML5, CSS3, JavaScript, Responsive Web Design
+- Version Control:  Git, Github
+- Tools: Visual Studio Code
 
  ## About 
 
