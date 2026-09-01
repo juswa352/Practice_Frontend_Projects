@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid black;
+    max-width: 900px;
+  h3{
+    font-family: cursive;
+    padding: 10px;
+  }
+     
+}
+
+header{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+    .head{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-bottom: 30px;
+
+        .name{
+            padding-top: 10px;
+            font-size: 20px;
+        }
+
+        .navbar{
+            word-spacing: 10px;
+            font-size: 18px;
+            
+            a{
+                color: black;
+            }
+        }
+      
+    }
+      p{
+            font-family: cursive;
+            font-size: 20px;
+}
+    sub{
+        margin-top: 10px;
+        font-size: 12px;
+        color: gray;
+    }
+    
+}
+main.top-section{
+    display: flex;;
+    border-bottom: 1px solid black;
+
+    .project{
+        flex: 1;
+        border-right: 1px solid black;
+      
+        }
+
+       .project li{
+            list-style: none;
+            border-top: 1px solid black;
+            padding: 10px 15px;
+        }
+    
+
+    .middle-container{
+        flex: 1.5;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+
+        .oswork{
+            padding: 20px 10px;
+            flex: 1;
+        }
+        .workexp{
+            padding: 20px;
+            border-bottom: 1px solid black;
+        }
+    }
+    .education{
+        flex: 1.5;
+        padding: 20px 30px;
+    }
+
+
+}
