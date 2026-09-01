@@ -5,5 +5,5 @@ A hands-on frontend development showcase highlighting my progression, technical 
  |Number | Projects | Language| status |
  |:------|:---------|:--------|:-------|
   1 |[cv.html](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Single_Page_HTML_CV) | HTML| Completed
- 2|[Basic_HTML_Web](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Basic_HTML_web)|HTML|Complete
+ 2|[Basic_HTML_Web](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Basic_HTML_web)|HTML|Completed
  
