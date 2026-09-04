@@ -95,7 +95,7 @@ main.top-section{
             flex: 1;
         }
         .workexp{
-            padding: 20px;
+            padding: 20px 30px;
             border-bottom: 1px solid black;
         }
     }
@@ -177,7 +177,54 @@ footer{
     }
 }
 
+@media(max-width: 600px){
 
+    
+    body{
+        .head{
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        }
+    main.top-section{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
 
+     .project{
+        border-right: none;
+        text-align: center;
+        border-bottom: 1px solid black;
+        
+     }
+
+     }
+     .workexp{
+        
+        border-bottom: 1px solid black;
+     }
+     .oswork{
+        border-bottom: 1px solid black;
+        
+     }
+
+     .reviews{
+     display: flex;
+     flex-direction: column;
+     
+     }
+   
+    }
+    .contact-form{
+        max-width: 500px;
+        margin: 10px auto;
+    }
+
+   
+}
+  
 
 
