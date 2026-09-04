@@ -33,6 +33,7 @@ header{
         margin-bottom: 30px;
 
         .name{
+            color: black;
             padding-top: 10px;
             font-size: 20px;
         }
@@ -153,6 +154,7 @@ footer{
 
   
 .contact-form {
+    padding: auto;
     max-width: 800px;
     margin: 16px auto;
     text-align: center;
@@ -181,7 +183,9 @@ footer{
 
     
     body{
+        border: none;
         .head{
+        
         gap: 10px;
         display: flex;
         align-items: center;
@@ -195,7 +199,7 @@ footer{
      flex-direction: column;
 
      .project{
-        border-right: none;
+        
         text-align: center;
         border-bottom: 1px solid black;
         
@@ -210,21 +214,56 @@ footer{
         border-bottom: 1px solid black;
         
      }
+     .education{
+        border-right: 1px solid black;
+     }
 
      .reviews{
      display: flex;
+     border-right: 1px solid black;
      flex-direction: column;
      
      }
    
     }
     .contact-form{
-        max-width: 500px;
+        max-width: 400px;
         margin: 10px auto;
     }
 
    
 }
+
+.content-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    border-top: none;
+
+    
+    .content-container{
+        padding: 20px;
+        background-color: rgba(241, 241, 241);
+        border: 1px solid black;
+        
+    }
+
+
+a img{
+    border: 1px solid black;
+    width: 300px;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+}
+}
+
+
   
 
 
