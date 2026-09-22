@@ -9,11 +9,8 @@ A hands-on frontend development showcase highlighting my progression, technical 
   3 |[Personal Portfolio](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Personal_Portfolio)|HTML, CSS| Completed
   4 |[Calculator](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Calculator)|HTML, CSS, JS| Completed
   5 |[Changelog](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Changelog)|HTML,CSS|Completed
-<<<<<<< HEAD
-  6 | [Testimonial Cards]()|HTML,CSS|Completed
-=======
-  6 | [Testimonial Cards](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Testimonial_Cards)|HTML,CSS| In progress
->>>>>>> 29c3fb41633dd331a7fb78e32e57a48a62555242
+  6 | [Testimonial Cards](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Testimonial_Cards)|HTML,CSS|Completed
+
   
 ## Skills Currently Developing
 - Frontend: HTML5, CSS3, JavaScript, Responsive Web Design
