@@ -5,16 +5,27 @@
     font-family: "raleway", sans-serif;
 }
 body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     border: 1px solid black;
     max-width: 800px;
     margin: 20px auto;
+   
 }
 
 .testimonial-top{
     display: flex;
     flex: 1;
     gap: 20px;
+     
+    
+    .pos{
+        font-weight: 400;
+        color: rgba(128, 128, 128, 0.9);
+}
 }
 
 .bubblemsgbox{
@@ -41,6 +52,11 @@ body{
     margin-left: -23px;
     margin-bottom: -20px;
 }
+
+    .bubblemsgbox:hover{
+        transform: scale(1.01);
+        transition: .1s ease;
+    }
 
 
 
@@ -88,6 +104,8 @@ body{
         
     }
 }
+
+
 }
 
 .testimonial-middle{
@@ -106,8 +124,11 @@ body{
         padding: 20px;
         color: white;
         background-color: black;
-        
-       
+          
+    }
+    .msg-box:hover{
+        transform: scale(1.01);
+        transition: .1s ease;
     }
     .star{
         margin-bottom: 10px;
@@ -127,9 +148,59 @@ body{
 }
 
 .testimonial-bottom{
-    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
     border: 1px solid black;
-    padding: 30px;
+    padding: 40px;
     border-radius: 20px;
+
+    .msg{
+        max-width: 500px;
+        margin: 10px auto;
+    }
+  
+    .slider{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 30px;
+
+        img{
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        img:first-of-type,
+        img:last-of-type{
+            scale: 0.8;
+            opacity: 0.4;
+        }
+
+        .prev::before{
+            content: '<';
+            cursor: pointer;
+        }
+
+        .next::before{
+            content: '>';
+            cursor: pointer;
+        }
+
+        .next:hover,
+        .prev:hover{
+            transform: scale(1.5);
+            transition: .2s ease;
+        }
+    }
+
+    .profile-name{
+        font-size: 15px;
+    }
+
 }
+
 
