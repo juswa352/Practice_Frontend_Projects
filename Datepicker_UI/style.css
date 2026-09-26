@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main.content{
+    max-width: 800px;
+    margin: 40px auto;
+    width:238px;
+
+}
+.search-box{
+ 
+    input{
+       font-family: 'Courier New', Courier, monospace;
+       padding: 8px;
+       font-size: 14px;
+    }
+
+    button{
+        width: 40px;
+        height: 35px;
+    }
+}
+.calendar-data{
+    margin-top: 5px;
+    border: 1px solid black;
+
+    .top{
+        border-bottom: 1px solid black;
+        padding: 0 10px;
+        
+        .monthsyear{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .days{
+            display: flex;
+            justify-content:space-between;
+            
+            
+        }
+}
+.date-num{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    gap: 14px;
+}
+.date-num span{
+    text-align: center;
+}
+}
