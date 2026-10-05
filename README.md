@@ -10,12 +10,8 @@ A hands-on frontend development showcase highlighting my progression, technical 
   4 |[Calculator](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Calculator)|HTML, CSS, JS| Completed
   5 |[Changelog](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Changelog)|HTML,CSS|Completed
   6 | [Testimonial Cards](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Testimonial_Cards)|HTML,CSS|Completed
-<<<<<<< HEAD
   7|[DatepickerUI](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Datepicker_UI)|HTML,CSS| Completed
   8|[Accessible Form UI]()|HTML,CSS| In progress
-=======
-  7|[DatepickerUI](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/Datepicker_UI)|HTML,CSS| In progress
->>>>>>> 40f30808730abc8a463ddf2ec8ae775e62cdd2b1
 
   
 ## Skills Currently Developing
