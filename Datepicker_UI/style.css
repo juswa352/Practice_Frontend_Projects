@@ -1,62 +1,102 @@
 *{
     box-sizing: border-box;
-
 }
 
-body{
-    margin: 0;
+body{ 
     padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-main.content{
-    max-width: 800px;
-    margin: 40px auto;
-    width:238px;
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 20px auto 0px;
+    gap: 2px;
 
-}
-.search-box{
- 
     input{
-       font-family: 'Courier New', Courier, monospace;
-       padding: 8px;
-       font-size: 14px;
+      padding: 10px;
+      font-size: 14px;
     }
 
-    button{
+    button {
+        cursor: pointer;
         width: 40px;
-        height: 35px;
+        height: 40px;
     }
 }
-.calendar-data{
-    margin-top: 5px;
+.calendar{
     border: 1px solid black;
+    margin: 5px auto;
+    width: fit-content;
+    padding: 10px;
 
     .top{
-        border-bottom: 1px solid black;
-        padding: 0 10px;
-        
-        .monthsyear{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-        }
+    padding: 20px;
+     padding-bottom: 10px;
+    }
 
-        .days{
-            display: flex;
-            justify-content:space-between;
-            
-            
+    .prev-arrow{
+        cursor: pointer;
+    }
+
+    .next-arrow{
+        cursor: pointer;
+    }
+
+    .prev-arrow:hover{
+        transition: .3s ease;
+        transform: scale(1.2);
+    }
+    
+        .next-arrow:hover{
+        transition: .3s ease;
+        transform: scale(1.2);
+    }  
+
+    .month-name{
+        display: flex;
+        justify-content: space-around;
+        cursor: default;
+       
+    }
+
+    .date{  
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        gap: 1px;
+        list-style: none;
+
+        li{
+            margin: 10px;
+            text-align: center;
+            cursor: default;
         }
-}
-.date-num{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px auto;
-    gap: 14px;
-}
-.date-num span{
-    text-align: center;
-}
+    }
+    .date-num{
+        border: 1px solid black;
+        text-align: center;
+    }
+
+        .datenum-inactive{
+        border: 1px solid black;
+        color: grey;
+        text-align: center;
+    }
+
+            .date-num:hover{
+                background-color: lightblue;
+                transition: .3s ease;
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+
+            .datenum-inactive:hover{
+                cursor:not-allowed;
+            }
+
+            
+
 }
