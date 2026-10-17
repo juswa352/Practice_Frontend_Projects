@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+
+        <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="What should we call you?" required>
+
+        <label for="email">Email</label> 
+        <input type="email" id="email" placeholder="example@gmail.com" required>
+
+         <span class="error">Email is already taken</span>
+
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" placeholder="xxxxxxx"  required>
+
+        <label for="confirm">Confirm Password</label>
+        <input type="password" id="confirm" placeholder="xxxxxxx"  required>
+
+        <button type="submit">Update Profile</button>
+        </form>
+
+        <aside>
+         <div class="progress-bar">65%</div>
+
+         <h4>Profile Completeness</h4>
+
+         <div class="status">
+            <li><del>Create Account</del></li>
+            <li><del>Update Roadmap Progress</del></li>
+            <li><del>Setup Public Profile</del></li>
+            <li>Complete your first project</li>
+            <li>Invite your Friends</li>
+        
+         </div>
+        </aside>
+    </main>
+</body>
+</html>
