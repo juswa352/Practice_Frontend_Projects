@@ -11,21 +11,23 @@
 
         <form>
         <label for="name">Full Name</label>
-        <input type="text" id="name" placeholder="What should we call you?" required>
-
+        <input type="text" id="name" placeholder="What should we call you?"  aria-required="true" >
+        
         <label for="email">Email</label> 
-        <input type="email" id="email" placeholder="example@gmail.com" required>
+        <input type="email" id="email" placeholder="example@gmail.com" aria-required="true" >
 
-         <span class="error">Email is already taken</span>
+            <span class="error">Invalid Email</span>
 
         <label for="password">Enter Password</label>
-        <input type="password" id="password" placeholder="xxxxxxx"  required>
+        <input type="password" id="password" placeholder="xxxxxxxx" pattern="[a-z0-9]{8}"  aria-required="true" >
+
+            <span class="pass-error">8 Characters only</span>
 
         <label for="confirm">Confirm Password</label>
-        <input type="password" id="confirm" placeholder="xxxxxxx"  required>
+        <input type="password" id="confirm" placeholder="xxxxxxxx" pattern="[a-z0-9]{8}" aria-required="true">
 
         <button type="submit">Update Profile</button>
-        </form>
+        </form> 
 
         <aside>
          <div class="progress-bar">65%</div>

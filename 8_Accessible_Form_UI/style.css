@@ -40,6 +40,35 @@ input:focus{
     outline-color: green;
 }
 
+.error{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: red;
+    visibility: hidden;
+}
+
+
+input:invalid{
+    border: 1px solid red;
+}
+
+input:not(:focus):invalid ~ .error{
+visibility: visible;
+}
+
+.pass-error{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: red;
+    visibility: hidden;   
+}
+
+input:not(:focus):invalid ~ .pass-error{
+    visibility: visible;
+}
+
 button{
     margin-top: 10px;
     padding: 8px;
