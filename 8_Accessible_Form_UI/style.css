@@ -70,7 +70,7 @@ input:not(:focus):invalid ~ .pass-error{
 }
 
 button{
-    margin-top: 10px;
+    margin-top: 10px;   
     padding: 8px;
     background-color: black;
     color: white;
