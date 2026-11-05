@@ -1,1 +1,1 @@
-This is for test only 
+A collection of JavaScript practice exercises and mini-projects designed to improve programming skills, strengthen logical thinking, and understand core JavaScript concepts. This folder contains hands-on coding activities covering variables, data types, operators, functions, loops, arrays, objects, DOM manipulation, and events.
