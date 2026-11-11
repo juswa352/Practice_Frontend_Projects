@@ -13,6 +13,7 @@ A hands-on frontend development showcase highlighting my progression, technical 
   7 |[Accessible Form UI](https://github.com/juswa352/Practice_Frontend_Projects/tree/main/8_Accessible_Form_UI)|HTML,CSS| Completed
   8|[Image Grid Layout](9_Image_Grid_Layout)|HTML, CSS| Completed
   9 |[Tooltip UI](10_Tooltip_UI)|HTML,CSS| Completed
+  10|[Simple Tabs](10_simple_tabs)|HTML,CSS,Javascript| In Progess
 
 
 ## Skills Currently Developing
